@@ -13,6 +13,14 @@ npm run dev
 npm run dev -- --open
 ```
 
+## Linting
+Prettier is used code formatting, and both Prettier and ESLint are used for linting.
+
+```bash
+npm run lint # Lint (no changes)
+npm run format # Implements prettier changes
+```
+
 ## Building
 
 To create a production version of the app:

@@ -11,7 +11,10 @@
 	</main>
 
 	<footer>
-    <p>© 2024 <a href="https://thecodeboss.dev" target="_blank">Aaron Krauss</a>. All Rights Reserved.</p>
+		<p>
+			© 2024 <a href="https://thecodeboss.dev" target="_blank">Aaron Krauss</a>. All Rights
+			Reserved.
+		</p>
 	</footer>
 </div>
 

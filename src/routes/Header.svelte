@@ -4,8 +4,7 @@
 </script>
 
 <header>
-	<div class="corner">
-	</div>
+	<div class="corner"></div>
 
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
