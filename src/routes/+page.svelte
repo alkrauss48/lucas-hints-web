@@ -1,7 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import logo from '$lib/images/lucas-hints.jpeg';
+	import appStore from '$lib/images/download-on-the-app-store.svg';
 </script>
 
 <svelte:head>
@@ -10,22 +10,21 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+  <img class="logo" src={logo} alt="Lucas Hints logo" />
 
-		to your new<br />SvelteKit app
+	<h1>
+    Welcome to <span class="inline-block">Lucas Hints</span>
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+  <a href="#">
+    <img src={appStore} alt="Download Lucas Hints on the App Store" />
+  </a>
 
-	<Counter />
+  <p class="max-w-xl text-center">
+    <strong>Lucas Hints</strong> is an iOS app that helps you create fun,
+    memorable stories with friends and family by kickstarting your creativity.
+  </p>
+
 </section>
 
 <style>
@@ -35,25 +34,5 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>
