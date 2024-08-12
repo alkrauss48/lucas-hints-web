@@ -5,8 +5,11 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Lucas Hints</title>
+  <meta
+    name="description"
+    content="Lucas Hints is an iOS app that helps you create fun, memorable stories with friends and family by kickstarting your creativity."
+  />
 </svelte:head>
 
 <section>

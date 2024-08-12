@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>Privacy Policy</h1>
+	<h1>Privacy Policy - Lucas Hints</h1>
 
   <p>Last updated: August 12, 2024</p>
 

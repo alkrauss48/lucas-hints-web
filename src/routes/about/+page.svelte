@@ -3,8 +3,11 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>About - Lucas Hints</title>
+  <meta
+    name="description"
+    content="Lucas Hints is an iOS app that helps you create fun, memorable stories with friends and family by kickstarting your creativity."
+  />
 </svelte:head>
 
 <div class="text-column">
