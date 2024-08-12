@@ -14,6 +14,7 @@ npm run dev -- --open
 ```
 
 ## Linting
+
 Prettier is used code formatting, and both Prettier and ESLint are used for linting.
 
 ```bash
