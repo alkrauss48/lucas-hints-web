@@ -1,6 +1,6 @@
 # Lucas Hints - Web
 
-A simple [svelte](https://svelte.dev/) web application to provide
+A simple [SvelteKit](https://kit.svelte.dev/) web application to provide
 information over the [Lucas Hints iOS app]().
 
 ## Developing
