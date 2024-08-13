@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>Privacy Policy</title>
+	<title>Privacy Policy - Lucas Hints</title>
 	<meta name="description" content="The Privacy Policy for the Lucas Hints iOS app." />
 </svelte:head>
 
 <div class="text-column">
-	<h1>Privacy Policy - Lucas Hints</h1>
+	<h1>Privacy Policy</h1>
 
 	<p>Last updated: August 12, 2024</p>
 
