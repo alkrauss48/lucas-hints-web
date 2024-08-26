@@ -1,6 +1,8 @@
 <script>
 	import logo from '$lib/images/lucas-hints.jpeg';
-	import appStore from '$lib/images/download-on-the-app-store.svg';
+	import appStoreImg from '$lib/images/download-on-the-app-store.svg';
+
+	const appStoreUrl = 'https://apps.apple.com/app/lucas-hints/id6596782787';
 </script>
 
 <svelte:head>
@@ -18,8 +20,8 @@
 		Welcome to <span class="inline-block">Lucas Hints</span>
 	</h1>
 
-	<a href="https://apps.apple.com/us/app/cyruslyrics/id1613010334">
-		<img src={appStore} alt="Download Lucas Hints on the App Store" />
+	<a href={appStoreUrl} target="_blank">
+		<img src={appStoreImg} alt="Download Lucas Hints on the App Store" />
 	</a>
 
 	<p class="max-w-xl text-center">
