@@ -40,7 +40,7 @@
 		you exactly what to do. It's just a few icons, right? You have to put the meaning together!
 	</p>
 	<p>
-		Want to theck out the app I built for my other son, Cyrus, which will help you quickly store,
+		Want to check out the app I built for my other son, Cyrus, which will help you quickly store,
 		find, and add the lyrics of songs that you like to sing? Then head on over to <a
 			href="https://cyruskrauss.com"
 			target="_blank">CyrusLyrics</a

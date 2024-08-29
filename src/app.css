@@ -125,3 +125,7 @@ button:focus:not(:focus-visible) {
 .text-center {
 	text-align: center;
 }
+
+.mt-12 {
+	margin-top: 3rem;
+}
